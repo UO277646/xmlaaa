@@ -1,0 +1,90 @@
+/************************************
+    Juan Dominguez Alvarez - UO277646
+    Descripcion de los estilos
+************************************/
+/*Especificidad: 001*/
+body {
+    background-color: rgb(226, 226, 226);
+    color:#000;
+    
+  
+    }
+  
+  /*Especificidad: 001*/
+  main{
+     
+    /*cada auto es el tamaño de la columna */
+    
+    text-align: justify;
+    
+    
+  }
+  /*Especificidad: 001*/
+  h1 {
+    background-color: rgb(226, 226, 226);
+    color: rgb(3, 2, 2);    
+    
+    text-transform: uppercase;
+    padding: 2em; 
+    text-align: center;     
+    }
+  
+  /*Especificidad: 003*/
+  h2 {
+    background-color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);    
+    font-family:Georgia, serif;
+    text-transform: uppercase; 
+    text-align: left;  
+      
+    }
+  
+  
+    /*Especificidad: 001*/
+  nav {
+    background-color: rgb(226, 226, 226);
+    color: rgb(3, 2, 2);    
+    border: 2px solid #000;
+    text-transform: uppercase;
+    text-decoration: underline ;
+    padding: 2em; 
+    text-align: left;     
+    }
+  
+    /*Especificidad: 001*/
+    p {
+      background-color: rgb(226, 226, 226);
+      color: rgb(3, 2, 2);    
+       
+      font-family:sans-serif;    
+      }
+     /*Especificidad: 002*/
+      ol li{
+        background-color: rgb(226, 226, 226);
+        color: rgb(3, 2, 2);    
+        
+        font-family:sans-serif;    
+        }
+      /*Especificidad: 001*/
+      ol{
+        list-style-type: circle;
+      }
+    /*Especificidad: 001*/
+        table {
+          width: 100%;
+          border: 1px solid #000;
+       }
+       /*Especificidad: 001*/
+       th, td {
+          width: 25%;
+          text-align: left;
+          vertical-align: top;
+          border: 1px solid #000;
+          border-collapse: collapse;
+          padding: 0.3em;
+       }
+       /*Especificidad: 001*/
+       caption {
+          padding: 0.3em;
+       }
+    
